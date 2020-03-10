@@ -1,0 +1,42 @@
+#header {
+    width: 100vw;
+    height: 100px;
+
+    background-color: lightgray;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25pt;
+    color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main {
+    width: 100vw;
+    height: 500px;
+
+    background-color: grey;
+
+    display: flex;
+}
+
+#resourcesect {
+    width: 70vw;
+    height: 500px;
+
+}
+
+#console {
+    width: 30vw;
+    height: 500px;
+    padding: 25px;
+    box-sizing: border-box;
+    overflow: auto;
+
+    background-color: greenyellow;
+
+    font-family: monospace;
+    font-size: 15pt;
+}
