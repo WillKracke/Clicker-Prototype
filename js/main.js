@@ -22,10 +22,12 @@ function gatherFood() {
 }
 
 function gatherMineral() {
-    mineral += 1;
+    mineral += 10;
 
     labelMineral.innerHTML = mineral;
     console.log("mineral = " + mineral);
+
+    checkUnlocks(mineral);
 }
 
 function gatherFuel() {
@@ -33,4 +35,24 @@ function gatherFuel() {
 
     labelFuel.innerHTML = fuel;
     console.log("fuel = " + fuel);
+}
+
+
+
+function checkUnlocks(resource) {
+    switch (resource) {
+        case food:
+            
+            break;
+        case mineral:
+            if (mineral >= 100) {
+                document.querySelector('#refinebtn').style.visibility="visible";
+            }
+            break;
+        case fuel:
+
+            break;
+        default:
+            break;
+    }
 }
