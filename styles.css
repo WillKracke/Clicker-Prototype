@@ -95,3 +95,40 @@
     height: 50px;
     width: 150px;
 }
+
+#buildingsect {
+    width: 100%;
+    height: 250px;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+    background-color: lightgrey;
+}
+
+.buildingcontainer {
+    background-color: darkslategrey;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+.plus {
+    background-image: url("img/system/plus.png");
+    background-size: 20px 20px;
+    background-position: center;
+    height: 30px;
+    width: 30px;
+}
+
+.minus {
+    background-image: url("img/system/minus.png");
+    background-size: 20px 20px;
+    background-position: center;
+    height: 30px;
+    width: 30px;
+}
